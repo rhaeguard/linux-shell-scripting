@@ -1,0 +1,27 @@
+names, phone numbers, and money contributions to the party campaign for the past three months
+
+#Print all the phone numbers.
+awk -F: '{print $2}' awkdataset.txt
+
+#Print Dan's phone number.
+awk -F: '/Dan/ {print $2}' awkdataset.txt
+
+#Print Susan's name and phone number.
+awk -F: '/Susan/ {print $1 " - " $2}' awkdataset.txt
+
+#Print all last names beginning with D.
+awk -F: '/[a-zA-Z] D.*/ {print $1}' awkdataset.txt | awk '{print $2}'
+
+#Print all first names beginning with either a C or E.
+awk -F: '/^[CE].*/' awkdataset.txt | awk '{print $1}'
+
+#Print all first names containing only four characters.
+awk -F: '/^[a-zA-Z]{4} / {print $1}' awkdataset.txt | awk '{print $1}'
+
+#Print the first names of all those in the 916 area code
+awk -F: '/916/' awkdataset.txt | awk '{print $1}'
+
+#Print Mike's campaign contributions. Each value should be printed with a leading dollar sign; e.g., $250 $100 $175.
+awk -F: '/Mike/ {print "$" $3 " $" $4 " $" $5}' awkdataset.txt
+
+#Print last names followed by a comma and the first name
