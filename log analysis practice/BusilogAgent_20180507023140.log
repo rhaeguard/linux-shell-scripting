@@ -1,0 +1,2 @@
+2018-05-07 02:31:40;LOG_INFO_MSG;0;BusilogAgent;BusiLogAgent;busilog_agent_sharememory.cpp[112];share memory has been builded,name=../sharememorypath/shmpoolname_msg50
+2018-05-07 17:17:06;LOG_INFO_MSG;0;BusilogAgent;BusilogAgent;busilog_agent_app.cpp[116];Catch an exit signal,signal no = 15

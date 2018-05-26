@@ -1,0 +1,7 @@
+cp source destination
+-----------------------------
+cp /tmp/a/* /tmp/b/		copy all the files from a to b 
+cp /tmp/a/*.txt /tmp/b/		copy all the .txt files from a to b
+cp /tmp/a/*.html /tmp/b/	copy all the .html files from a to b
+-----------------------------
+

@@ -1,0 +1,70 @@
+find
+grep
+tar
+awk
+
+Find
+----------------------------------
+cases:
+find [where] [-name name_of_file]
+
+1)  find /  				- searches the entire drive
+2)  find .  				- . stands for all in the current folder
+3)  find / -name nameofafile.extension 	- searches for the file with the name given in the entire drive 
+4)  find ~ -name name_of_file 		- searches the home folder (~ denotes the home folder)
+5)  find ~ -atime 100 			-  searches for the files that are accessed 100 days ago
+6)  find / -empty 			- searches for empty files
+7)  find / -exec 			- searches for executable files
+8)  find / -read 			- searches for readable files
+9)  find / -name *.avi 			- searches files with .avi extension
+10) find / -name *.mp4 -fprint nameoffiletoprintto - prints the results to a file
+11) find / -name *.cpp -exec gedit '{}' \;
+
+Grep
+----------------------------------
+
+egrep [cli option] <pattern> [file path] /// grep -E [cli option] <pattern> [file path]
+
+1) grep -E 'pattern' samplefile - spits the lines that match the pattern
+2) grep -E -n 'pattern' samplefile - spits the lines with their numbers 
+3) grep -E -c 'pattern' samplefile - spits the number of lines found
+
+patterns - regex
+
+
+Tar
+-------------------------------------------------
+
+1.0) create tar file
+	tar cvf filename.tar pathtodirectory
+1.1) create tar.gz and tgz file
+	tar cvzf filename.tar.gz pathtodirectory
+1.2) create tar.bz2 file
+	tar cvjf filename.tar.gz pathtodirectory
+
+2.0) uncompress tar file
+2.1) uncompress tar.gz and tgz file
+2.2) uncompress tar.bz2 file
+	tar xvf filename.tar(.gz, bz2) path_to_inner_folder (or path_to_inner_file) -C path_to_directory_where_to_be_extracted
+
+3.0) view tar file
+	tar tvf pathtofile
+	tar tvf pathtofile --wildcards "pattern"
+3.1) view tar.gz and tgz file
+	tar tvfz pathtofile
+3.2) view tar.bz2 file
+	tar tvfj pathtofile
+
+4.0) uncompress n file(s) tar file
+4.1) uncompress n file(s) tar.gz and tgz file
+4.2) uncompress n file(s) tar.bz2 file
+
+5.0) add file(s) to already compressed tar file
+5.1) add file(s) to already compressed tar.gz and tgz file
+5.2) add file(s) to already compressed tar.bz2 file
+
+
+free -m | awk '/Mem/ {total=$2; used=$3} END {print used/total*100, "%"}'
+
+du -sh ./*
+

@@ -1,0 +1,9 @@
+2018-05-07 02:30:02;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily_c exit normally.
+2018-05-07 02:30:02;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily_b exit normally.
+2018-05-07 02:30:02;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily_a exit normally.
+2018-05-07 02:30:06;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily exit normally.
+2018-05-07 02:30:06;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily_stat exit normally.
+2018-05-07 02:30:06;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_err2db exit normally.
+2018-05-07 02:30:06;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process busilogagent -m exit normally.
+2018-05-07 02:30:06;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process alarmagent -m exit normally.
+2018-05-07 02:30:06;LOG_INFO_MSG;0;Monitor;flowscheduler;MonitorMain.cpp[36];program exit successfully.

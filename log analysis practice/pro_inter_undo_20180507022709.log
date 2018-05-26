@@ -1,0 +1,81 @@
+2018-05-07 02:27:09;LOG_INFO_MSG;0;pro_inter_undo;flowscheduler;flow_scheduler.cpp[133];Starting program, version is: HUAWEI PRME R001C08L00003
+2018-05-07 02:27:09;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.HandshakeCollect
+2018-05-07 02:27:09;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.ASN1Encode
+2018-05-07 02:27:09;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.BizAudit
+2018-05-07 02:27:09;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Deduplicate
+2018-05-07 02:27:09;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.Collect
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.Audit
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Correlation
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.DataWriter
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.DataGenerator
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.Hash
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.ComMerger
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.CommonStatistic
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.ComParse
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.TextDecoder
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.ComScenarioTariff
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Segment
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.Trend
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.Dispatch.ComDispatch
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.DBDeduplicate
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.NewDBWriter
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.DBReader
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.DBWriter
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.Decoder
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.Encode
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Filter
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Aggregation
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.MergeReader
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.NewCollect.MultiCollect
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Reconciliation
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.RecordCombination
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Route
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.SettlementStat
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Split
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Stat
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.StandardWriter
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.CClearBillWriter
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.StandardReader
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.Synchrony
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.TAPMergeReader
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.TAPWriter
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Read.TAPReader
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Transform
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.TreeEncoding
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Write.UniEncode
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;IEngine.cpp[199];Register success:objectname=Component.Business.Validate
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[54];Begin to initialize rule engine
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[87];Begin to initialize format library
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[90];Format library is initialized successful
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[95];Begin to initialize rule library
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[98];Rule library is initialized successful
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[103];Begin to initialize rule library
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[106];Rule library is initialized successful
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[111];Begin to initialize global variant library
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[114];Global varint library is initialized successful
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[119];Begin to initialize map library
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[130];There is no map in PM
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[214];Begin to initialize ruleengine function library
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[273];Rule engine function library is initialized successful
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;RuleEngineStartup;ruleengine_startup.cpp[70];Rule engine is initialized successful
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;billrepository_startup.cpp[85];Initialize billrecord repsitory success
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[85];Begin to initialize the component:componentname=pro_inter_undo.DBReader
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;Component.Read.DBReader;ComDBReader.cpp[189];Initialize database reader component successful
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[87];Initialize the component success:componentname=pro_inter_undo.DBReader
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[85];Begin to initialize the component:componentname=Component.Business.Route183350
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;CComRoute;CComRoute.cpp[24];Route component begin to initialize
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;CComRoute;CComRoute.cpp[28];Route component is initialized successfully
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[87];Initialize the component success:componentname=Component.Business.Route183350
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[85];Begin to initialize the component:componentname=Component.Write.StandardWriter183354
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[87];Initialize the component success:componentname=Component.Write.StandardWriter183354
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[85];Begin to initialize the component:componentname=Component.Write.StandardWriter183355
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[87];Initialize the component success:componentname=Component.Write.StandardWriter183355
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[85];Begin to initialize the component:componentname=Component.Business.Transform183358
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;Component.Business.Transform183358;CComConvert.cpp[27];Convert component is initialized success
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[87];Initialize the component success:componentname=Component.Business.Transform183358
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;flowengine;component_startup.cpp[103];Initialize component repository success
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;DataBase;DataBase.cpp[78];Begin to connect database ...
+2018-05-07 02:27:10;LOG_INFO_MSG;0;pro_inter_undo;DataBase;DataBase.cpp[112];connect to database successful
+2018-05-07 02:29:04;LOG_INFO_MSG;0;pro_inter_undo;pro_inter_undo.DBReader;DBReader.cpp[453];db reader component have read successful,process nums=0,right nums=0,exception nums=0
+2018-05-07 02:29:04;LOG_INFO_MSG;0;pro_inter_undo;pro_inter_undo.DBReader;DBReader.cpp[455];db reader component Total processed num=0
+2018-05-07 02:29:04;LOG_INFO_MSG;0;pro_inter_undo;flowscheduler;flow_scheduler.cpp[176];program exit successfully.

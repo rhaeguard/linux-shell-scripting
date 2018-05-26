@@ -1,0 +1,8 @@
+2018-05-07 17:18:45;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process alarmagent -m successfully.
+2018-05-07 17:18:47;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process busilogagent -m successfully.
+2018-05-07 17:18:49;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_err2db successfully.
+2018-05-07 17:18:49;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily_stat successfully.
+2018-05-07 17:18:49;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily successfully.
+2018-05-07 17:18:49;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily_a successfully.
+2018-05-07 17:18:49;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily_b successfully.
+2018-05-07 17:18:49;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily_c successfully.

@@ -1,0 +1,48 @@
+ps
+-e		--- all processes
+-A    	--- all processes
+
+-u		--- selects processes by user; can be followed by username
+
+-f 		--- does format listing
+
+-x		--- lists all the processes of a current user
+
+-o		--- followed by column names, will only show those columns, example syntax:
+			ps -eo pid, user, uid, group, gid, rss, vsz
+--sort	--- you won't believe, it sorts :)
+			ps -eo pid,rss --sort=-rss # sorts by rss in descending order
+			
+=============================================================================
+STAT column indicators
+
+D Uninterruptible sleep (usually IO)
+R Running or runnable (on run queue)
+S Interruptible sleep (waiting for an event to complete)
+T Stopped, either by a job control signal or because it is being traced.
+X dead (should never be seen)
+Z Defunct ("zombie") process, terminated but not reaped by its parent.
+
+< high-priority (not nice to other users)
+N low-priority (nice to other users)
+L has pages locked into memory (for real-time and custom IO)
+s is a session leader
+l is multi-threaded (using CLONE_THREAD, like NPTL pthreads do)
++ is in the foreground process group 
+
+=============================================================================
+One can send different signals to a process
+kill procnum			--- kill a process with procnum
+kill -15 procnum 		--- kill a process by sending a SIGTERM signal which is 15
+kill -SIGKILL procnum 	--- kill a process by sending a SIGKILL signal which is 9
+
+killall -9 procc		--- kill all the processes with name of procc by sending a kill signal
+=============================================================================
+
+
+
+
+
+
+
+

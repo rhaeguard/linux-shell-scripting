@@ -1,0 +1,17 @@
+2018-05-07 02:31:38;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process alarmagent -m successfully.
+2018-05-07 02:31:40;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process busilogagent -m successfully.
+2018-05-07 02:31:42;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_err2db successfully.
+2018-05-07 02:31:42;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily_stat successfully.
+2018-05-07 02:31:42;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily successfully.
+2018-05-07 02:31:42;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily_a successfully.
+2018-05-07 02:31:42;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily_b successfully.
+2018-05-07 02:31:42;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[270];Start process flowscheduler -s pro_inter_daily_c successfully.
+2018-05-07 17:17:06;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily_c exit normally.
+2018-05-07 17:17:12;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily_b exit normally.
+2018-05-07 17:17:13;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily_a exit normally.
+2018-05-07 17:17:13;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily exit normally.
+2018-05-07 17:17:13;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_daily_stat exit normally.
+2018-05-07 17:17:13;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process flowscheduler -s pro_inter_err2db exit normally.
+2018-05-07 17:17:13;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process busilogagent -m exit normally.
+2018-05-07 17:17:13;LOG_INFO_MSG;0;Monitor;MED_MONITOR;Monitor.cpp[740];Process alarmagent -m exit normally.
+2018-05-07 17:17:13;LOG_INFO_MSG;0;Monitor;flowscheduler;MonitorMain.cpp[36];program exit successfully.
